@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <!-- "rel = "preload"" has been used in order to specifically load certain resources early to improve performance  -->
+    <link rel="preload" href="CSS/StyleSheet.css" as="style">
+    <link rel="preload" href="Javascript/javascript.js" as="script">
+    <link rel="stylesheet" href="CSS/StyleSheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@351&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <title>C Bird Portfolio</title>
+
+  </head>
+
+  <body>
+
+    <div id="main">
+      <span onclick="openNav()">&#9776;</span>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="Home.html">Home</a>
+      <a href="Audio.html">Audio</a>
+      <a href="Image.html">Image</a>
+      <a href="Video.html">Video</a>
+    </div>
+
+    <script src="Javascript/javascript.js"></script>
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 style="font-size:70px">Charlie Bird</h1>
+        <p>Photographer/ Videographer</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <a href="https://www.facebook.com/">
+        <img class = "FB_logo" src = "Image/Icons/Facebook.png" alt="Facebook Logo"/>
+      </a>
+      <a href="https://www.instagram.com/">
+        <img class = "Insta_logo" src = "Image/Icons/Instagram.png" alt="Instagram Logo"/>
+      </a>
+      <a href="https://twitter.com/home">
+        <img class = "Twitter_logo" src = "Image/Icons/Twitter.png" alt="Twitter Logo"/>
+      </a>
+    </div>
+
+  </body>
+
+</html>
